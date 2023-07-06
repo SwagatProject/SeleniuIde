@@ -1,0 +1,1530 @@
+{
+  "id": "0a1fa699-a101-4ae9-a0a0-79ce7b5588a7",
+  "version": "2.0",
+  "name": "GlobalSqa",
+  "url": "https://www.globalsqa.com/samplepagetest/",
+  "tests": [{
+    "id": "4758dae6-ef77-4b76-91d4-418eda231a67",
+    "name": "VerifyTitle",
+    "commands": [{
+      "id": "9c083426-3579-4be3-b945-140366f4ac9c",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ac570bbf-a3aa-4f52-9116-6f4001e93bc4",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Sample Page Testing Site Online - Global SQA Testing Sites",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "27d3ee4c-251f-43b6-b501-4488a47cf386",
+    "name": "VerifyText",
+    "commands": [{
+      "id": "8c3c066e-eec3-42ff-986e-90dd4b77abb6",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a8d5aa32-731e-4802-865a-a93648a1bd17",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.header_phone",
+      "targets": [
+        ["css=.header_phone", "css:finder"],
+        ["xpath=//div[@id='subheader']/div/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]", "xpath:position"]
+      ],
+      "value": "+91-9910979218"
+    }, {
+      "id": "ebe4b826-0b05-4ec4-8e5d-fccdd50b025d",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.header_mail",
+      "targets": [
+        ["css=.header_mail", "css:finder"],
+        ["xpath=//div[@id='subheader']/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div", "xpath:position"]
+      ],
+      "value": "contact@globalsqa.com"
+    }, {
+      "id": "bc9ce40c-aa01-4e95-841f-abc1d0be1db0",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#menu-item-1513 > a",
+      "targets": [
+        ["css=#menu-item-1513 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Home')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-1513']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.globalsqa.com/')])[2]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": "HOME"
+    }, {
+      "id": "2b7a02ea-1ca3-4fa0-b941-cb48cd99a064",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#menu-item-6898 > a",
+      "targets": [
+        ["css=#menu-item-6898 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'CheatSheets')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-6898']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalsqa.com/cheatsheets/')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": "CHEATSHEETS"
+    }, {
+      "id": "b954c709-4ebb-4d76-ba5f-77bf79178686",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#menu-item-7128 > .no_border",
+      "targets": [
+        ["css=#menu-item-7128 > .no_border", "css:finder"],
+        ["xpath=//a[contains(text(),'Free Ebooks')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-7128']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalsqa.com/free-ebooks/')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": "FREE EBOOKS"
+    }, {
+      "id": "773af841-cb43-4f99-bda5-0f797ffd7782",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#menu-item-2822 > .no_border",
+      "targets": [
+        ["css=#menu-item-2822 > .no_border", "css:finder"],
+        ["xpath=//a[contains(text(),'Tester’s Hub')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-2822']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalsqa.com/testers-hub/')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": "TESTER’S HUB"
+    }, {
+      "id": "f1704541-2cdc-4770-806d-a48a4df88471",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#menu-item-1561 > a",
+      "targets": [
+        ["css=#menu-item-1561 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Contact Us')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-1561']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalsqa.com/contact-us/')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": "CONTACT US"
+    }, {
+      "id": "19e7ad8a-ae07-4876-975e-ea418d23ec34",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "7464c570-2d0a-4718-baf3-93957fd02add",
+    "name": "MouseOver",
+    "commands": [{
+      "id": "e2cd822a-4fe3-481d-bee2-d9113ea55573",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7286bb61-77b7-4323-b401-17a2ff65db90",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#menu-item-1513 > a",
+      "targets": [
+        ["css=#menu-item-1513 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Home')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-1513']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.globalsqa.com/')])[2]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4720fc83-3dc4-4ae1-97a4-b7032c262784",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#menu-item-1513 > a",
+      "targets": [
+        ["css=#menu-item-1513 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Home')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-1513']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.globalsqa.com/')])[2]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a585800e-b62f-49dd-9780-3b57474d8ec4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#menu-item-6898 > a",
+      "targets": [
+        ["css=#menu-item-6898 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'CheatSheets')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-6898']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalsqa.com/cheatsheets/')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "77622393-4094-4c14-adcb-e74b934a7f02",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#menu-item-6898 > a",
+      "targets": [
+        ["css=#menu-item-6898 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'CheatSheets')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-6898']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalsqa.com/cheatsheets/')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e07a83de-f55d-48e8-a031-766597bf48c2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#menu-item-7128 > .no_border",
+      "targets": [
+        ["css=#menu-item-7128 > .no_border", "css:finder"],
+        ["xpath=//a[contains(text(),'Free Ebooks')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-7128']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalsqa.com/free-ebooks/')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9191f124-304d-4698-aadb-dc0760d4f176",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#menu-item-7128 > .no_border",
+      "targets": [
+        ["css=#menu-item-7128 > .no_border", "css:finder"],
+        ["xpath=//a[contains(text(),'Free Ebooks')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-7128']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalsqa.com/free-ebooks/')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66e57fe1-610e-4cfe-8063-06d0d066bfd5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#menu-item-2822 > .no_border",
+      "targets": [
+        ["css=#menu-item-2822 > .no_border", "css:finder"],
+        ["xpath=//a[contains(text(),'Tester’s Hub')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-2822']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalsqa.com/testers-hub/')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd792267-0ac1-4f81-baca-e799117b5bee",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#menu-item-2822 > .no_border",
+      "targets": [
+        ["css=#menu-item-2822 > .no_border", "css:finder"],
+        ["xpath=//a[contains(text(),'Tester’s Hub')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-2822']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalsqa.com/testers-hub/')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "06e44958-9e41-44b4-bbdb-dc7db738fc9a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#menu-item-1561 > a",
+      "targets": [
+        ["css=#menu-item-1561 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Contact Us')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-1561']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalsqa.com/contact-us/')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "fa360047-6b44-47ec-8453-62753e6ed46b",
+    "name": "MenuBar",
+    "commands": [{
+      "id": "87e9a4ed-b746-47d8-a0ca-521cbe95f2b8",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6408005c-ca23-446b-85fe-473647796337",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#menu-item-7128 > .no_border",
+      "targets": [
+        ["css=#menu-item-7128 > .no_border", "css:finder"],
+        ["xpath=//a[contains(text(),'Free Ebooks')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-7128']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalsqa.com/free-ebooks/')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2aa367b4-8e3f-4f80-b228-7069289d4068",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Free Machine Learning Ebooks",
+      "targets": [
+        ["linkText=Free Machine Learning Ebooks", "linkText"],
+        ["css=#menu-item-7132 > a", "css:finder"],
+        ["xpath=//li[@id='menu-item-7132']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalsqa.com/free-machine-learning-ebooks/')]", "xpath:href"],
+        ["xpath=//li[3]/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Free Machine Learning Ebooks')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4594dda5-f9cf-484b-a63c-db1706063443",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#menu-item-7128 > .no_border",
+      "targets": [
+        ["css=#menu-item-7128 > .no_border", "css:finder"],
+        ["xpath=//a[contains(text(),'Free Ebooks')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-7128']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalsqa.com/free-ebooks/')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3a989c7-3c63-4a76-ba58-59cd84db7c7b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu-item-7130 span",
+      "targets": [
+        ["css=#menu-item-7130 span", "css:finder"],
+        ["xpath=//li[@id='menu-item-7130']/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Free Deep Learning eBooks')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f8e1c14-9013-4c51-9bbd-00a99188dec6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#menu-item-7128 > .no_border",
+      "targets": [
+        ["css=#menu-item-7128 > .no_border", "css:finder"],
+        ["xpath=//a[contains(text(),'Free Ebooks')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-7128']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalsqa.com/free-ebooks/')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f35e919-16d9-483f-939b-d3a19f47ef0a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Free Elasticsearch eBooks",
+      "targets": [
+        ["linkText=Free Elasticsearch eBooks", "linkText"],
+        ["css=#menu-item-7129 > a", "css:finder"],
+        ["xpath=//li[@id='menu-item-7129']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalsqa.com/free-elasticsearch-ebooks/')]", "xpath:href"],
+        ["xpath=//li[3]/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Free Elasticsearch eBooks')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6086799-6bea-4391-8709-787c7d97857c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#menu-item-7128 > .no_border",
+      "targets": [
+        ["css=#menu-item-7128 > .no_border", "css:finder"],
+        ["xpath=//a[contains(text(),'Free Ebooks')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-7128']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalsqa.com/free-ebooks/')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9212183e-d0fd-4e7f-836e-4f96941d8700",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu-item-7131 span",
+      "targets": [
+        ["css=#menu-item-7131 span", "css:finder"],
+        ["xpath=//li[@id='menu-item-7131']/a/span", "xpath:idRelative"],
+        ["xpath=//li[4]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Free Tensorflow eBooks')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5eb8049-1036-4dd0-bf04-64d9ad2d8a24",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#menu-item-2822 > .no_border",
+      "targets": [
+        ["css=#menu-item-2822 > .no_border", "css:finder"],
+        ["xpath=//a[contains(text(),'Tester’s Hub')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-2822']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalsqa.com/testers-hub/')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "84aedb86-6a4e-4f25-b668-45cefdda06bc",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Demo Testing Site",
+      "targets": [
+        ["linkText=Demo Testing Site", "linkText"],
+        ["css=#menu-item-2823 > .no_border", "css:finder"],
+        ["xpath=//li[@id='menu-item-2823']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalsqa.com/demo-site/')]", "xpath:href"],
+        ["xpath=//li[4]/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Demo Testing Site')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6491f52-2a9b-4c36-88dd-c1dbfd0a995d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu-item-2831 span",
+      "targets": [
+        ["css=#menu-item-2831 span", "css:finder"],
+        ["xpath=//li[@id='menu-item-2831']/a/span", "xpath:idRelative"],
+        ["xpath=//li[4]/div/ul/li/div/ul/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Tooltip')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5b24082-6697-4e83-a877-ed896f59388f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#menu-item-2822 > .no_border",
+      "targets": [
+        ["css=#menu-item-2822 > .no_border", "css:finder"],
+        ["xpath=//a[contains(text(),'Tester’s Hub')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-2822']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalsqa.com/testers-hub/')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7749def9-db15-4deb-ab7f-155b394f35d7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#menu-item-2823 > .no_border > span",
+      "targets": [
+        ["css=#menu-item-2823 > .no_border > span", "css:finder"],
+        ["xpath=//li[@id='menu-item-2823']/a/span", "xpath:idRelative"],
+        ["xpath=//li[4]/div/ul/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Demo Testing Site')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5577846f-122c-4a2f-b43d-a05e2e24d54e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu-item-2834 span",
+      "targets": [
+        ["css=#menu-item-2834 span", "css:finder"],
+        ["xpath=//li[@id='menu-item-2834']/a/span", "xpath:idRelative"],
+        ["xpath=//li[4]/div/ul/li/div/ul/li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'AlertBox')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a989d7b-7273-4c0a-814b-7bfc56060e54",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#menu-item-2822 > .no_border",
+      "targets": [
+        ["css=#menu-item-2822 > .no_border", "css:finder"],
+        ["xpath=//a[contains(text(),'Tester’s Hub')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-2822']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalsqa.com/testers-hub/')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "19e910e1-a2c7-46e9-a3d4-a721c9d38ed2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#menu-item-2823 > .no_border > span",
+      "targets": [
+        ["css=#menu-item-2823 > .no_border > span", "css:finder"],
+        ["xpath=//li[@id='menu-item-2823']/a/span", "xpath:idRelative"],
+        ["xpath=//li[4]/div/ul/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Demo Testing Site')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "98bb1ae0-2432-4c97-8311-3c0d3dd5ee92",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu-item-2827 span",
+      "targets": [
+        ["css=#menu-item-2827 span", "css:finder"],
+        ["xpath=//li[@id='menu-item-2827']/a/span", "xpath:idRelative"],
+        ["xpath=//li[4]/div/ul/li/div/ul/li[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'DatePicker')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d23ab61-9b33-4061-8e56-b1ce135d1bf3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#menu-item-2822 > .no_border",
+      "targets": [
+        ["css=#menu-item-2822 > .no_border", "css:finder"],
+        ["xpath=//a[contains(text(),'Tester’s Hub')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-2822']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalsqa.com/testers-hub/')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a87b640c-12be-4676-80c8-4ecb0e9bac29",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#menu-item-2823 > .no_border > span",
+      "targets": [
+        ["css=#menu-item-2823 > .no_border > span", "css:finder"],
+        ["xpath=//li[@id='menu-item-2823']/a/span", "xpath:idRelative"],
+        ["xpath=//li[4]/div/ul/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Demo Testing Site')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b54cdd39-e501-4e2e-affe-e8152ff3567d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu-item-2828 span",
+      "targets": [
+        ["css=#menu-item-2828 span", "css:finder"],
+        ["xpath=//li[@id='menu-item-2828']/a/span", "xpath:idRelative"],
+        ["xpath=//li[4]/div/ul/li/div/ul/li[4]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Dialog Boxes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf688e07-f45a-4f51-9d96-8c7122f29b33",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#menu-item-2822 > .no_border",
+      "targets": [
+        ["css=#menu-item-2822 > .no_border", "css:finder"],
+        ["xpath=//a[contains(text(),'Tester’s Hub')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-2822']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalsqa.com/testers-hub/')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3460b164-1af6-42f7-9bee-97421593c8bc",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#menu-item-2823 > .no_border > span",
+      "targets": [
+        ["css=#menu-item-2823 > .no_border > span", "css:finder"],
+        ["xpath=//li[@id='menu-item-2823']/a/span", "xpath:idRelative"],
+        ["xpath=//li[4]/div/ul/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Demo Testing Site')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1fdab34c-7836-4102-a616-85534832dc3c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu-item-2832 span",
+      "targets": [
+        ["css=#menu-item-2832 span", "css:finder"],
+        ["xpath=//li[@id='menu-item-2832']/a/span", "xpath:idRelative"],
+        ["xpath=//li[5]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Progress Bar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e261f63-be29-401b-a8db-20bc7f969bad",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#menu-item-2822 > .no_border",
+      "targets": [
+        ["css=#menu-item-2822 > .no_border", "css:finder"],
+        ["xpath=//a[contains(text(),'Tester’s Hub')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-2822']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalsqa.com/testers-hub/')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4eaf6a3b-190d-408b-857b-80506d9024eb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#menu-item-2823 > .no_border > span",
+      "targets": [
+        ["css=#menu-item-2823 > .no_border > span", "css:finder"],
+        ["xpath=//li[@id='menu-item-2823']/a/span", "xpath:idRelative"],
+        ["xpath=//li[4]/div/ul/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Demo Testing Site')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d17748b1-03ed-45cd-ad31-422fbb282fa0",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu-item-2832 span",
+      "targets": [
+        ["css=#menu-item-2832 span", "css:finder"],
+        ["xpath=//li[@id='menu-item-2832']/a/span", "xpath:idRelative"],
+        ["xpath=//li[5]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Progress Bar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "da43998a-6fa4-4434-89cf-3f73baf47d1f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#menu-item-2822 > .no_border",
+      "targets": [
+        ["css=#menu-item-2822 > .no_border", "css:finder"],
+        ["xpath=//a[contains(text(),'Tester’s Hub')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-2822']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalsqa.com/testers-hub/')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d0874f6-a0e7-4f89-87bf-3fbaf9c57ce0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#menu-item-2823 > .no_border > span",
+      "targets": [
+        ["css=#menu-item-2823 > .no_border > span", "css:finder"],
+        ["xpath=//li[@id='menu-item-2823']/a/span", "xpath:idRelative"],
+        ["xpath=//li[4]/div/ul/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Demo Testing Site')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2a4795d-1ba5-4b51-9b8f-93ae73fb8f13",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Drag And Drop",
+      "targets": [
+        ["linkText=Drag And Drop", "linkText"],
+        ["css=#menu-item-2829 > a", "css:finder"],
+        ["xpath=//li[@id='menu-item-2829']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalsqa.com/demo-site/draganddrop/')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Drag And Drop')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd95054f-b703-4c82-aff4-76de67432eab",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#menu-item-2822 > .no_border",
+      "targets": [
+        ["css=#menu-item-2822 > .no_border", "css:finder"],
+        ["xpath=//a[contains(text(),'Tester’s Hub')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-2822']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalsqa.com/testers-hub/')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6b24ef1-db79-4cca-b879-019a8ca594e7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#menu-item-2823 > .no_border > span",
+      "targets": [
+        ["css=#menu-item-2823 > .no_border > span", "css:finder"],
+        ["xpath=//li[@id='menu-item-2823']/a/span", "xpath:idRelative"],
+        ["xpath=//li[4]/div/ul/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Demo Testing Site')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8648b83-aae9-4599-a018-49ae1e090709",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu-item-2830 span",
+      "targets": [
+        ["css=#menu-item-2830 span", "css:finder"],
+        ["xpath=//li[@id='menu-item-2830']/a/span", "xpath:idRelative"],
+        ["xpath=//li[7]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Draggable Boxes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "09459d5c-ccb1-4d05-804a-fd65960dde20",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#menu-item-2822 > .no_border",
+      "targets": [
+        ["css=#menu-item-2822 > .no_border", "css:finder"],
+        ["xpath=//a[contains(text(),'Tester’s Hub')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-2822']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalsqa.com/testers-hub/')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "443bbfc8-c2fe-4418-a265-9ee76f8a9eb1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#menu-item-2823 > .no_border > span",
+      "targets": [
+        ["css=#menu-item-2823 > .no_border > span", "css:finder"],
+        ["xpath=//li[@id='menu-item-2823']/a/span", "xpath:idRelative"],
+        ["xpath=//li[4]/div/ul/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Demo Testing Site')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8dc74628-4d25-4d1c-bc50-5772c291ecb9",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu-item-2825 span",
+      "targets": [
+        ["css=#menu-item-2825 span", "css:finder"],
+        ["xpath=//li[@id='menu-item-2825']/a/span", "xpath:idRelative"],
+        ["xpath=//li[8]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'DropDown Menu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "766aca5e-8e27-48e4-9298-32cffcb90772",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#menu-item-2822 > .no_border",
+      "targets": [
+        ["css=#menu-item-2822 > .no_border", "css:finder"],
+        ["xpath=//a[contains(text(),'Tester’s Hub')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-2822']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalsqa.com/testers-hub/')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71ee8121-b683-484e-8f75-7d8fd6407f55",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#menu-item-2823 > .no_border > span",
+      "targets": [
+        ["css=#menu-item-2823 > .no_border > span", "css:finder"],
+        ["xpath=//li[@id='menu-item-2823']/a/span", "xpath:idRelative"],
+        ["xpath=//li[4]/div/ul/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Demo Testing Site')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3392354-2a01-4ab6-97c2-154d921bae5c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Toolbar",
+      "targets": [
+        ["linkText=Toolbar", "linkText"],
+        ["css=#menu-item-2826 > a", "css:finder"],
+        ["xpath=//li[@id='menu-item-2826']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalsqa.com/demo-site/toolbar/')]", "xpath:href"],
+        ["xpath=//li[9]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Toolbar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3494ca2e-29b9-4bd3-bbc3-1be6fe798fde",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#menu-item-2822 > .no_border",
+      "targets": [
+        ["css=#menu-item-2822 > .no_border", "css:finder"],
+        ["xpath=//a[contains(text(),'Tester’s Hub')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-2822']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalsqa.com/testers-hub/')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91738a54-d2d7-4894-91c3-3dcff4ee93d5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#menu-item-2823 > .no_border > span",
+      "targets": [
+        ["css=#menu-item-2823 > .no_border > span", "css:finder"],
+        ["xpath=//li[@id='menu-item-2823']/a/span", "xpath:idRelative"],
+        ["xpath=//li[4]/div/ul/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Demo Testing Site')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fcc13874-29dc-45a9-8227-c0c5fd5df31c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu-item-2833 span",
+      "targets": [
+        ["css=#menu-item-2833 span", "css:finder"],
+        ["xpath=//li[@id='menu-item-2833']/a/span", "xpath:idRelative"],
+        ["xpath=//li[10]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Auto Complete')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2742bb18-d0b5-48ea-b885-04bbe052753e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#menu-item-2822 > .no_border",
+      "targets": [
+        ["css=#menu-item-2822 > .no_border", "css:finder"],
+        ["xpath=//a[contains(text(),'Tester’s Hub')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-2822']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalsqa.com/testers-hub/')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "42a7dbf9-d478-4e59-bda8-75f6aa15efdc",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#menu-item-2823 > .no_border > span",
+      "targets": [
+        ["css=#menu-item-2823 > .no_border > span", "css:finder"],
+        ["xpath=//li[@id='menu-item-2823']/a/span", "xpath:idRelative"],
+        ["xpath=//li[4]/div/ul/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Demo Testing Site')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8cd5d8a1-8db5-4d71-9a4c-2469ee10b9f0",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu-item-2835 span",
+      "targets": [
+        ["css=#menu-item-2835 span", "css:finder"],
+        ["xpath=//li[@id='menu-item-2835']/a/span", "xpath:idRelative"],
+        ["xpath=//li[11]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Accordion And Tabs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "84258602-a26c-4426-91ff-9ef0e686a905",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#menu-item-2822 > .no_border",
+      "targets": [
+        ["css=#menu-item-2822 > .no_border", "css:finder"],
+        ["xpath=//a[contains(text(),'Tester’s Hub')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-2822']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalsqa.com/testers-hub/')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3fb2be8c-465a-4863-8eeb-09c846f213ea",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Demo Testing Site",
+      "targets": [
+        ["linkText=Demo Testing Site", "linkText"],
+        ["css=#menu-item-2823 > .no_border", "css:finder"],
+        ["xpath=//li[@id='menu-item-2823']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalsqa.com/demo-site/')]", "xpath:href"],
+        ["xpath=//li[4]/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Demo Testing Site')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fb46ff7-32e8-49c4-92eb-78cb65d9188d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu-item-2836 span",
+      "targets": [
+        ["css=#menu-item-2836 span", "css:finder"],
+        ["xpath=//li[@id='menu-item-2836']/a/span", "xpath:idRelative"],
+        ["xpath=//li[12]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Select Elements')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d14fcd3-746d-4e05-a5fb-e1582f0177de",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#menu-item-2822 > .no_border",
+      "targets": [
+        ["css=#menu-item-2822 > .no_border", "css:finder"],
+        ["xpath=//a[contains(text(),'Tester’s Hub')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-2822']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalsqa.com/testers-hub/')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d68d6f4-1143-437d-8dfb-205e82d43473",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#menu-item-2823 > .no_border > span",
+      "targets": [
+        ["css=#menu-item-2823 > .no_border > span", "css:finder"],
+        ["xpath=//li[@id='menu-item-2823']/a/span", "xpath:idRelative"],
+        ["xpath=//li[4]/div/ul/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Demo Testing Site')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "358b19d7-2710-4a09-ac7e-c84c7e098260",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu-item-2836 span",
+      "targets": [
+        ["css=#menu-item-2836 span", "css:finder"],
+        ["xpath=//li[@id='menu-item-2836']/a/span", "xpath:idRelative"],
+        ["xpath=//li[12]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Select Elements')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c55725d-c02c-4f01-9fc6-f099754b701a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#menu-item-2822 > .no_border",
+      "targets": [
+        ["css=#menu-item-2822 > .no_border", "css:finder"],
+        ["xpath=//a[contains(text(),'Tester’s Hub')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-2822']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalsqa.com/testers-hub/')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc3b4fda-a622-4259-a55c-11aff35c7862",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#menu-item-2823 > .no_border > span",
+      "targets": [
+        ["css=#menu-item-2823 > .no_border > span", "css:finder"],
+        ["xpath=//li[@id='menu-item-2823']/a/span", "xpath:idRelative"],
+        ["xpath=//li[4]/div/ul/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Demo Testing Site')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a7f562e-6f2b-43d3-b9d1-d2c7f7e6753c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Frames And Windows",
+      "targets": [
+        ["linkText=Frames And Windows", "linkText"],
+        ["css=#menu-item-2999 > .last_submenu_item", "css:finder"],
+        ["xpath=//li[@id='menu-item-2999']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalsqa.com/demo-site/frames-and-windows/')]", "xpath:href"],
+        ["xpath=//li[13]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Frames And Windows')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a916acff-9e39-4d88-bebf-70956ac7b10d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#menu-item-2822 > .no_border",
+      "targets": [
+        ["css=#menu-item-2822 > .no_border", "css:finder"],
+        ["xpath=//a[contains(text(),'Tester’s Hub')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-2822']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalsqa.com/testers-hub/')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a06149e-57cf-4486-8e55-6b9b97088852",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#menu-item-2824 > .no_border > span",
+      "targets": [
+        ["css=#menu-item-2824 > .no_border > span", "css:finder"],
+        ["xpath=//li[@id='menu-item-2824']/a/span", "xpath:idRelative"],
+        ["xpath=//li[4]/div/ul/li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'AngularJS Protractor Practice Site')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "754666c5-5991-4009-8f4e-1d58219c22dc",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu-item-2842 span",
+      "targets": [
+        ["css=#menu-item-2842 span", "css:finder"],
+        ["xpath=//li[@id='menu-item-2842']/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/div/ul/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Filters')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "58c07e30-1176-4073-9ef2-b8df0f267124",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b6d08645-57a6-4bf9-a994-5e6fe46c4d86",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#menu-item-2822 > .no_border",
+      "targets": [
+        ["css=#menu-item-2822 > .no_border", "css:finder"],
+        ["xpath=//a[contains(text(),'Tester’s Hub')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-2822']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalsqa.com/testers-hub/')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "78f871c5-1c2a-4e81-a7b0-327a5d7fc46f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=AngularJS Protractor Practice Site",
+      "targets": [
+        ["linkText=AngularJS Protractor Practice Site", "linkText"],
+        ["css=#menu-item-2824 > .no_border", "css:finder"],
+        ["xpath=//li[@id='menu-item-2824']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalsqa.com/angularjs-protractor-practice-site/')]", "xpath:href"],
+        ["xpath=//li[4]/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'AngularJS Protractor Practice Site')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bad53b6f-2b45-4501-9775-18e18421640b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu-item-2841 span",
+      "targets": [
+        ["css=#menu-item-2841 span", "css:finder"],
+        ["xpath=//li[@id='menu-item-2841']/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/div/ul/li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Scrollable')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "09e4a1ac-0c7a-44a8-9a30-516dee145c82",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ee305839-b4b8-40ad-aad4-2f17dc0cd425",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#menu-item-2822 > .no_border",
+      "targets": [
+        ["css=#menu-item-2822 > .no_border", "css:finder"],
+        ["xpath=//a[contains(text(),'Tester’s Hub')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-2822']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalsqa.com/testers-hub/')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "56f8464b-657b-4af7-a05f-a5272a510eaa",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu-item-2846 span",
+      "targets": [
+        ["css=#menu-item-2846 span", "css:finder"],
+        ["xpath=//li[@id='menu-item-2846']/a/span", "xpath:idRelative"],
+        ["xpath=//li[4]/div/ul/li[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Sample Page Test')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e88b5f51-204c-4f6c-9e53-6b8a6926b333",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#menu-item-2822 > .no_border",
+      "targets": [
+        ["css=#menu-item-2822 > .no_border", "css:finder"],
+        ["xpath=//a[contains(text(),'Tester’s Hub')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-2822']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalsqa.com/testers-hub/')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "89b352c9-f9c2-40e7-ae1a-2e98014ebf6f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu-item-3796 span",
+      "targets": [
+        ["css=#menu-item-3796 span", "css:finder"],
+        ["xpath=//li[@id='menu-item-3796']/a/span", "xpath:idRelative"],
+        ["xpath=//li[4]/div/ul/li[4]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Flash Website')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee1bf3cd-cdb1-46a0-a0d7-bd9c9a968e38",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "36535349-4d2e-4a9e-ad28-c2ff9f32b561",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu-item-2822 > .no_border",
+      "targets": [
+        ["css=#menu-item-2822 > .no_border", "css:finder"],
+        ["xpath=//a[contains(text(),'Tester’s Hub')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-2822']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalsqa.com/testers-hub/')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "68f15862-eb7c-4061-ba2d-7af9bf3fd0b6",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu-item-6898 > a",
+      "targets": [
+        ["css=#menu-item-6898 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'CheatSheets')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-6898']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalsqa.com/cheatsheets/')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c3e6bb2-3261-433f-b0ec-44cc2f2fc49b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#menu-item-1513 > a",
+      "targets": [
+        ["css=#menu-item-1513 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Home')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-1513']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.globalsqa.com/')])[2]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "ba7867fa-2c83-4498-a8a5-e628cd1cc01a",
+    "name": "SearchBar",
+    "commands": [{
+      "id": "7482d7ad-b70c-4c27-a2fd-2170d8a3dc41",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d87e4f5c-d6b6-4836-bb54-b24ca1056e75",
+      "comment": "",
+      "command": "type",
+      "target": "id=s",
+      "targets": [
+        ["id=s", "id"],
+        ["name=s", "name"],
+        ["css=#s", "css:finder"],
+        ["xpath=//input[@id='s']", "xpath:attributes"],
+        ["xpath=//div[@id='subheader']/div/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Free ebooks"
+    }, {
+      "id": "c8663ed8-b086-47ab-867b-0a43586e4e92",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button_search",
+      "targets": [
+        ["css=.button_search", "css:finder"],
+        ["xpath=//div[@id='subheader']/div/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c17a2c55-c7e8-497e-ac0c-d47515e561af",
+    "name": "TextBox",
+    "commands": [{
+      "id": "731f17e6-0855-4191-9938-4a44199cc7b1",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4bd14092-1079-46f2-8134-7cbddf53f645",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.scrollTo(0,500)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "80981268-1667-4470-bd65-99cb32a3b02b",
+      "comment": "",
+      "command": "type",
+      "target": "id=g2599-name",
+      "targets": [
+        ["id=g2599-name", "id"],
+        ["name=g2599-name", "name"],
+        ["css=#g2599-name", "css:finder"],
+        ["xpath=//input[@id='g2599-name']", "xpath:attributes"],
+        ["xpath=//div[@id='contact-form-2599']/form/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/input", "xpath:position"]
+      ],
+      "value": "Swagat"
+    }, {
+      "id": "e1f3e0a7-76fb-41da-9f22-9a4e5d20e389",
+      "comment": "",
+      "command": "type",
+      "target": "id=g2599-email",
+      "targets": [
+        ["id=g2599-email", "id"],
+        ["name=g2599-email", "name"],
+        ["css=#g2599-email", "css:finder"],
+        ["xpath=//input[@id='g2599-email']", "xpath:attributes"],
+        ["xpath=//div[@id='contact-form-2599']/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "swagat96mohanty@gmail.com"
+    }, {
+      "id": "d66a1d58-bcfb-465e-be2b-cb4f11fb9574",
+      "comment": "",
+      "command": "type",
+      "target": "id=g2599-website",
+      "targets": [
+        ["id=g2599-website", "id"],
+        ["name=g2599-website", "name"],
+        ["css=#g2599-website", "css:finder"],
+        ["xpath=//input[@id='g2599-website']", "xpath:attributes"],
+        ["xpath=//div[@id='contact-form-2599']/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "www.edubridge.com"
+    }]
+  }, {
+    "id": "9c592b0f-489e-4ee9-b96d-58026baece3b",
+    "name": "CheckBox",
+    "commands": [{
+      "id": "9c300c21-0649-4217-984b-85e2ac2e8238",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "096f004c-032a-4261-b780-4efd52bf4709",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.scrollTo(0,500)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4a04bdb4-939e-4f82-bf7f-a121baa506d1",
+      "comment": "",
+      "command": "check",
+      "target": "name=g2599-expertise[]",
+      "targets": [
+        ["name=g2599-expertise[]", "name"],
+        ["css=.grunion-checkbox-multiple-label:nth-child(2) > .checkbox-multiple", "css:finder"],
+        ["xpath=//input[@name='g2599-expertise[]']", "xpath:attributes"],
+        ["xpath=//div[@id='contact-form-2599']/form/div[5]/label[2]/input", "xpath:idRelative"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "bfc4c63d-543e-43ba-8ee8-f9eb0625d14a",
+    "name": "DropDown",
+    "commands": [{
+      "id": "1e56fee7-8dc2-4f4d-bd4e-800656fef86e",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f91b345d-7261-4f9c-b847-405c2d6e2476",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.scrollTo(0,500)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d500b7da-9556-4111-bfe4-55e2fb44a6f2",
+      "comment": "",
+      "command": "select",
+      "target": "id=g2599-experienceinyears",
+      "targets": [
+        ["id=g2599-experienceinyears", "id"],
+        ["name=g2599-experienceinyears", "name"],
+        ["css=#g2599-experienceinyears", "css:finder"],
+        ["xpath=//select[@id='g2599-experienceinyears']", "xpath:attributes"],
+        ["xpath=//div[@id='contact-form-2599']/form/div[4]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "3-5"
+    }]
+  }, {
+    "id": "9d5fe84a-85f5-4b27-a0ea-093fb11396c8",
+    "name": "RadioButton",
+    "commands": [{
+      "id": "455e158c-6695-4746-84da-0361019fe970",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d334a4aa-2d66-452b-b34f-947e319e5877",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.scrollTo(0,700)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "174fd829-f35c-476f-a054-10c1f2999f33",
+      "comment": "",
+      "command": "check",
+      "target": "name=g2599-education",
+      "targets": [
+        ["name=g2599-education", "name"],
+        ["css=.grunion-radio-label:nth-child(2) > .radio", "css:finder"],
+        ["xpath=//input[@name='g2599-education']", "xpath:attributes"],
+        ["xpath=//div[@id='contact-form-2599']/form/div[6]/label[2]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/label[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "81fedbfd-9f20-4d59-9041-de72732b304e",
+    "name": "SubmitBox",
+    "commands": [{
+      "id": "ebca1e30-202a-4a81-8a12-b1706fc993da",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d529e800-423a-4192-a0fe-8946fc51865c",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.scrollTo(0,1000)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "93137918-d1c0-45fd-a945-7c19f8779d77",
+      "comment": "",
+      "command": "type",
+      "target": "id=contact-form-comment-g2599-comment",
+      "targets": [
+        ["id=contact-form-comment-g2599-comment", "id"],
+        ["name=g2599-comment", "name"],
+        ["css=#contact-form-comment-g2599-comment", "css:finder"],
+        ["xpath=//textarea[@id='contact-form-comment-g2599-comment']", "xpath:attributes"],
+        ["xpath=//div[@id='contact-form-2599']/form/div[7]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "xyz"
+    }, {
+      "id": "7ec0faea-2799-42b9-889e-804239d45c19",
+      "comment": "",
+      "command": "submit",
+      "target": "css=.pushbutton-wide",
+      "targets": [
+        ["css=.pushbutton-wide", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='contact-form-2599']/form/p[3]/button", "xpath:idRelative"],
+        ["xpath=//p[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c62ffdf2-0739-4308-857c-5df8f8b9194c",
+    "name": "SocialMedialink",
+    "commands": [{
+      "id": "269ed84b-8817-4207-ae51-e13eec356c8f",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2de732cb-18f2-47cb-9889-864db63a02ee",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=facebook",
+      "targets": [
+        ["linkText=facebook", "linkText"],
+        ["css=.header_soc_facebook", "css:finder"],
+        ["xpath=//a[contains(text(),'facebook')]", "xpath:link"],
+        ["xpath=//div[@id='subheader']/div/div/a[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://facebook.com/globalsqa')]", "xpath:href"],
+        ["xpath=//a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'facebook')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0567fca7-1f5d-4c98-b6ac-ce1367d6def1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=facebook",
+      "targets": [
+        ["linkText=facebook", "linkText"],
+        ["css=.header_soc_facebook", "css:finder"],
+        ["xpath=//a[contains(text(),'facebook')]", "xpath:link"],
+        ["xpath=//div[@id='subheader']/div/div/a[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://facebook.com/globalsqa')]", "xpath:href"],
+        ["xpath=//a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'facebook')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "343b15d5-d30d-4adc-b6a5-bb13eeddebcf",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=google",
+      "targets": [
+        ["linkText=google", "linkText"],
+        ["css=.header_soc_google", "css:finder"],
+        ["xpath=//a[contains(text(),'google')]", "xpath:link"],
+        ["xpath=//div[@id='subheader']/div/div/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://plus.google.com/103761557396023531439/posts')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'google')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "67884613-15bb-430b-b0a7-a11e38979d41",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=google",
+      "targets": [
+        ["linkText=google", "linkText"],
+        ["css=.header_soc_google", "css:finder"],
+        ["xpath=//a[contains(text(),'google')]", "xpath:link"],
+        ["xpath=//div[@id='subheader']/div/div/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://plus.google.com/103761557396023531439/posts')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'google')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7f489a1-4c33-45b5-b1b4-2d4bef9c7a76",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=linkedin",
+      "targets": [
+        ["linkText=linkedin", "linkText"],
+        ["css=.header_soc_linkedin", "css:finder"],
+        ["xpath=//a[contains(text(),'linkedin')]", "xpath:link"],
+        ["xpath=//div[@id='subheader']/div/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.linkedin.com/company/globalsqa')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'linkedin')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "380b96f4-2155-42a3-a681-b0d8526f0439",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=linkedin",
+      "targets": [
+        ["linkText=linkedin", "linkText"],
+        ["css=.header_soc_linkedin", "css:finder"],
+        ["xpath=//a[contains(text(),'linkedin')]", "xpath:link"],
+        ["xpath=//div[@id='subheader']/div/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.linkedin.com/company/globalsqa')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'linkedin')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe33847b-71f4-438e-83d8-c2f3fc08e014",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=twitter",
+      "targets": [
+        ["linkText=twitter", "linkText"],
+        ["css=.header_soc_twitter", "css:finder"],
+        ["xpath=//a[contains(text(),'twitter')]", "xpath:link"],
+        ["xpath=//div[@id='subheader']/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://twitter.com/Global_SQA')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'twitter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a18d3d1-1ae9-4948-8ade-0ed6caf4d325",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=twitter",
+      "targets": [
+        ["linkText=twitter", "linkText"],
+        ["css=.header_soc_twitter", "css:finder"],
+        ["xpath=//a[contains(text(),'twitter')]", "xpath:link"],
+        ["xpath=//div[@id='subheader']/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://twitter.com/Global_SQA')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'twitter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea648ffe-4365-4809-8be7-73f0ff86bace",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=pinterest",
+      "targets": [
+        ["linkText=pinterest", "linkText"],
+        ["css=.header_soc_pinterest", "css:finder"],
+        ["xpath=//a[contains(text(),'pinterest')]", "xpath:link"],
+        ["xpath=//div[@id='subheader']/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://in.pinterest.com/globalsqa/')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'pinterest')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "850d50cb-97c7-4888-bfbd-c0d100355d5a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=pinterest",
+      "targets": [
+        ["linkText=pinterest", "linkText"],
+        ["css=.header_soc_pinterest", "css:finder"],
+        ["xpath=//a[contains(text(),'pinterest')]", "xpath:link"],
+        ["xpath=//div[@id='subheader']/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://in.pinterest.com/globalsqa/')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'pinterest')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3c6c4dfc-7173-4bff-93ef-9a2371b0a81b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4758dae6-ef77-4b76-91d4-418eda231a67"]
+  }],
+  "urls": ["https://www.globalsqa.com/samplepagetest/"],
+  "plugins": []
+}
